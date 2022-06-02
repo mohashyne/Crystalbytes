@@ -12,7 +12,9 @@ html {
     --color-body: #918ca4;
 }
 
-*, ::after, *::before {
+*, 
+*::after, 
+*::before {
     box-sizing: border-box;
 }
 
