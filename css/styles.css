@@ -365,6 +365,9 @@ a {
     background: var(--color-secondary);
     color: #fff;
 }
+.card--primary .badge--primary {
+    background-color: #126de4;
+}
 
 .card--secondary .badge--secondary {
     background: #02cdf1;
@@ -373,6 +376,10 @@ a {
 
 
 /* plans */
+
+.plan {
+    transition: .2s ease-out;
+}
 
 .plan-container {
     width: 50%;
@@ -413,6 +420,13 @@ a {
     letter-spacing: var(--letter-spacing);
 
 }
+
+
+.plan--popular {
+    transform: scale(1.1);
+}
+
+
 .plan--popular .card__header {
     position: relative;
 }
@@ -425,6 +439,13 @@ a {
     top: -6px;
     right: 5%;
 
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+.plan--popular:hover {
+    transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -658,9 +679,9 @@ a {
 
 .block {
     --padding-vertical: 6rem;
-    padding:  var(--padding-vertical) 1rem;
-    border: 2px solid red;
+    padding:  var(--padding-vertical) 3rem;
     text-align: center;
+   
 }
 
 .block__heading {
@@ -700,7 +721,7 @@ a {
 
 .container {
     max-width: 1140px;
-    margin: 0;
+    margin: 0 auto;
     
 }
 
@@ -835,3 +856,14 @@ a {
     
 }
 
+
+/* Plans Block */
+
+.block-plans .grid {
+     gap: 8rem 4rem;
+}
+
+.block-plans .card {
+    max-width: 500px;
+    margin: 0 auto;
+}
