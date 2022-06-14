@@ -15,46 +15,76 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block">
-      <header class="block__header">
-        <h2>What our Customers are Saying</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
-      </header>
-      <div class="container">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
-              <span class="icon-container icon-container--accent">
-              <svg class="icon icon--white icon--small">
-                <use xlink:href="images/sprite.svg#quotes"></use>
-              </svg>
-              </span>
-            </div>
-            <blockquote class="quote">
-              <p class="quote__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-                perferendis, dicta placeat quasi quos dolorem quam minus cupiditate
-                fugit praesentium.
-              </p>
-            <footer>
-              <div class="media">
-                <div class="media__image">
-              </svg><svg class="icon icon--primary quote__line">
-                <use xlink:href="images/sprite.svg#line"></use>
-              </svg>
-                <div class="media__body">
-                  <h3 class="media__title quote_author">Muhammad Salihu</h3>
-                  <p class="quote__organization">
-                    Crystalbytes Solutions
-                  </p>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__section">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
           </div>
-        </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 2</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 3</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </header>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            molestias.
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 5</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </header>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            molestias.
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img src="images/company-logo.svg" alt="" />
+          <p class="footer__copyright">Copyright 2020 Muhammad Salihu</p>
+        </section>
       </div>
-    </section>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
